@@ -20,7 +20,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="space-y-2 text-white-400">
+          <div className="space-y-0 text-white-400">
             <h4 className="text-lg font-semibold mb-4 text-white-500">Contato</h4>
             <div className="space-y-2 text-white-400">
               <p className="space-y-0 text-[#FFFFFF]-400">(11) 91062-3871</p>
