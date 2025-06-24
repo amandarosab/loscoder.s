@@ -21,7 +21,7 @@ const Services = () => {
   return <section className="py-20 bg-zinc-950">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-bold mb-6 text-[E95027] text-[#e95027]">Nossos Serviços</h2>
+          <h2 className="font-bold mb-6 text-[#e95027] text-4xl">Nossos Serviços</h2>
           <p className="text-lg max-w-2xl mx-auto text-slate-50">
             Oferecemos soluções completas para transformar sua visão em realidade digital
           </p>

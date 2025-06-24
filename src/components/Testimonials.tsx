@@ -31,12 +31,12 @@ const Testimonials = () => {
   const renderStars = rating => {
     return Array.from({
       length: 5
-    }, (_, index) => <Star key={index} className="bg-[#E95027] bg-transparent" />);
+    }, (_, index) => <Star key={index} className="bg-transparent" />);
   };
   return <section className="py-20 bg-zinc-800">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-bold mb-6 text-4xl text-white">Depoimentos de Clientes</h2>
+          <h2 className="font-bold mb-6 text-4xl text-[#fd7506]">Feedbacks dos clientes</h2>
           <p className="text-lg max-w-2xl mx-auto text-white">
             Veja o que nossos clientes falam sobre nosso trabalho e dedicação
           </p>
@@ -57,7 +57,7 @@ const Testimonials = () => {
                             "{testimonial.comment}"
                           </p>
                         </div>
-                        <div className="text-center border-t border-gray-800 pt-6">
+                        <div className="text-center ">
                           <h4 className="text-xl font-semibold text-white mb-1">
                             {testimonial.name}
                           </h4>
@@ -70,8 +70,8 @@ const Testimonials = () => {
                   </div>
                 </CarouselItem>)}
             </CarouselContent>
-            <CarouselPrevious className="text-[#FD7506] border-[#FD7506] hover:bg-[#FD7506] hover:text-white" />
-            <CarouselNext className="text-[#FD7506] border-[#FD7506] hover:bg-[#FD7506] hover:text-white" />
+            <CarouselPrevious className="text-[#FD7506] border-[#FD7506] hover:text-white bg-transparent" />
+            <CarouselNext className="text-[#FD7506] border-[#FD7506] hover:text-white bg-transparent" />
           </Carousel>
         </div>
       </div>
