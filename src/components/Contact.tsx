@@ -30,7 +30,7 @@ const Contact = () => {
     const message = encodeURIComponent("Olá! Gostaria de saber mais sobre os serviços da Los Coders.");
     window.open(`https://wa.me/5511999999999?text=${message}`, '_blank');
   };
-  return <section id="contact" className="py-20 bg-inherit">
+  return <section id="contact" className="py-20 bg-black">
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-6">Entre em Contato</h2>
