@@ -20,15 +20,12 @@ const About = () => {
           <h2 className="text-4xl font-bold text-white mb-6">Sobre a Los Coders</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg mb-8 leading-relaxed text-slate-50 my-px">
-              Fundada por <strong className="text-white">Amanda Rosa Belo</strong> e <strong className="text-white">Igor Shaymon Lima Alvarez</strong>, 
+              Fundada por <strong className="text-white">Shaymon Alvarez</strong> e <strong className="text-white">Igor Shaymon Lima Alvarez</strong>, 
               a Los Coders nasceu da paixão por criar soluções digitais que realmente fazem a diferença. 
               Nossa missão é ser o parceiro tecnológico confiável que sua empresa precisa para crescer 
               no mundo digital.
             </p>
-            <p className="text-lg text-gray-300 leading-relaxed">
-              Acreditamos que o desenvolvimento de software vai além do código. É sobre entender 
-              profundamente as necessidades do cliente e entregar soluções que superem expectativas.
-            </p>
+            <p className="text-lg text-gray-300 leading-relaxed">Acreditamos que o desenvolvimento de software vai além do código. É sobre entender profundamente as necessidades do cliente e entregar soluções que superem expectativas!</p>
           </div>
         </div>
 
@@ -36,8 +33,8 @@ const About = () => {
           {values.map((value, index) => {
           const IconComponent = value.icon;
           return <div key={index} className="text-center group cursor-pointer transition-all duration-300">
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-800 shadow-md flex items-center justify-center group-hover:shadow-lg group-hover:bg-gray-700 transition-all duration-300">
-                  <IconComponent size={32} className="text-gray-400 group-hover:text-[#FD7506] transition-colors duration-300" />
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full shadow-md flex items-center justify-center group-hover:shadow-lg transition-all duration-300 bg-zinc-800">
+                  <IconComponent size={32} className="text-orange-400 group-hover:text-[#FD7506] transition-colors duration-300" />
                 </div>
                 <p className="text-gray-300 font-medium group-hover:text-[#FD7506] transition-colors duration-300">
                   {value.label}
