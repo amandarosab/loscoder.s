@@ -65,7 +65,7 @@ const Contact = () => {
             })} className="mt-2 bg-gray-800 border-gray-700 text-white focus:border-[#FD7506] focus:ring-[#FD7506] min-h-[120px]" required />
             </div>
 
-            <Button type="submit" className="text-white rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-[#E95027]/25text-base py-[10px] text-left text-white bg-[#fd7506] text-base">
+            <Button type="submit" className="bg-[#E95027] hover:bg-[#E95027]/90 text-white text-lg rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-[#E95027]/25 flex items-center gap-3 px-[31px] py-[18px]">
               Enviar Mensagem
             </Button>
           </form>
