@@ -7,7 +7,7 @@ const Footer = () => {
             <h3 className="text-2xl font-bold mb-4">
               Los <span className="text-[#E95027]">Coders</span>
             </h3>
-            <p className="leading-relaxed text-slate-50">Transformamos ideias em soluções digitais com integridade, organização e foco total em você!</p>
+            <p className="leading-relaxed text-slate-50 text-base font-normal">Desenvolvemos com integridade, organização e foco total em você!</p>
           </div>
 
           <div>
@@ -23,14 +23,14 @@ const Footer = () => {
           <div className="space-y-2 text-white-400">
             <h4 className="text-lg font-semibold mb-4 text-white-500">Contato</h4>
             <div className="space-y-2 text-gray-400">
-              <p className="space-y-2 text-[#FFFFFF]-400">(11) 91062-3871</p>
-              <p className="space-y-2 text-[#FFFFFF]-400">contato@loscoders.com.br</p>
+              <p className="space-y-0 text-[#FFFFFF]-400">(11) 91062-3871</p>
+              <p className="space-y-0 text-[#FFFFFF]-400">contato@loscoders.com.br</p>
             </div>
           </div>
         </div>
 
         <div className="">
-          <p className="<div> text-sm </div> text-gray-400 py-[35px] text-center">&copy; 2024 Los Coders. Todos os direitos reservados.</p>
+          <p className="<div> text-sm </div> text-gray-450 text-center py-[40px]">© 2025 Los Coders. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>;
