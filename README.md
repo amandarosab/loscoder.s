@@ -1,9 +1,9 @@
-# 💙 Site institucional - Los Coders
+# 🧡 Los Coders | Site de desenvolvimento Web & Mobile
 
-Este projeto foi desenvolvido como o site oficial da **Los Coders**, uma empresa especializada em desenvolvimento web e de aplicativos.
+Este projeto foi desenvolvido com objetivo de ser o site oficial da minha empresa a **Los Coders**! A Los Coders atua desenvolvendo sites e aplicativos para pequenas e médias empresas.
 
 Acesse o site:  
-👉 **[loscoders.com.br](https://loscoders.com.br)**
+**[loscoders.com.br](https://loscoders.com.br)**
 
 ---
 
@@ -29,11 +29,8 @@ Acesse o site:
 ## 🚀 Resultado final
 
 O resultado é um site institucional leve, rápido e elegante, totalmente alinhado com os valores e a proposta da **Los Coders**.
-
-> Este projeto foi desenvolvido com apoio da plataforma [Lovable](https://lovable.dev/), que acelera a construção de interfaces com o auxílio de inteligência artificial.
-
 ---
 
-**📩 Quer saber mais ou precisa de um projeto personalizado?**  
-Entre em contato através do nosso site: **[loscoders.com.br](https://loscoders.com.br)**
+**📩 Quer saber mais ou precisa de um site ou app personalizado?**  
+Entre em contato através do site: **[loscoders.com.br](https://loscoders.com.br)**
 
