@@ -22,7 +22,7 @@ const Technologies = () => {
   return <section className="py-20 bg-zinc-950">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-bold mb-6 text-[E95027] text-[#e95027]">Tecnologias</h2>
+          <h2 className="mb-6 text-[#e95027] font-bold text-4xl">Tecnologias</h2>
           <p className="text-lg max-w-2xl mx-auto text-white font-normal">Utilizamos tecnologias modernas para garantir soluções robustas e escaláveis</p>
         </div>
 

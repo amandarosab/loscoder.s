@@ -16,7 +16,7 @@ const Hero = () => {
           <span className="text-white">soluções digitais</span>
         </h1>
         
-        <p className="text-xl md:text-6xl mb-10 max-w-7xl mx-auto leading-relaxed text-white">
+        <p className="text-xl mb-10 max-w-7xl mx-auto leading-relaxed text-white md:text-xl">
           Na Los Coders, desenvolvemos com{' '}
           <span className="font-medium text-[E95027] text-white">integridade</span>,{' '}
           <span className="font-medium text-white">organização</span> e{' '}
