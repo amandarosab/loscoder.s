@@ -1,8 +1,6 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import TechBackground from './TechBackground';
-
 const Hero = () => {
   const scrollToContact = () => {
     const contactSection = document.getElementById('contact');
@@ -10,32 +8,23 @@ const Hero = () => {
       behavior: 'smooth'
     });
   };
-
-  return (
-    <section className="min-h-screen flex items-center justify-center relative bg-black px-4 py-20 overflow-hidden">
+  return <section className="min-h-screen flex items-center justify-center relative bg-black px-4 py-20 overflow-hidden">
       <TechBackground />
       <div className="max-w-4xl mx-auto text-center z-10 relative">
-        <p className="text-xl mb-6 max-w-7xl mx-auto leading-relaxed text-white md:text-xl">
+        <h1 className="text-10xl font-bold text-white mb-4 leading-tight md:text-10xl py-px my-0 text-6xl">
+          Transformamos ideias em{' '}
+          <span className="text-white">soluções digitais</span>
+        </h1>
+        
+        <p className="text-xl mb-10 max-w-7xl mx-auto leading-relaxed text-white md:text-xl">
           Na Los Coders, desenvolvemos com{' '}
           <span className="font-medium text-[E95027] text-white">integridade</span>,{' '}
           <span className="font-medium text-white">organização</span> e{' '}
           <span className="font-medium text-white">foco total</span> em você.
         </p>
-        
-        <h1 className="text-10xl font-bold text-white mb-10 leading-tight md:text-10xl py-px my-0 text-6xl">
-          Transformamos ideias em{' '}
-          <span className="text-white">soluções digitais</span>
-        </h1>
 
-        <Button 
-          onClick={scrollToContact} 
-          className="text-white text-lg rounded-lg duration-300 hover:shadow-lg hover:shadow-[#E95027]/25 transform hover:scale-105 py-[10px] px-[30px] mx-0 bg-[#fd7506]"
-        >
-          Entre em contato
-        </Button>
+        <Button onClick={scrollToContact} className="text-white text-lg rounded-lg duration-300 hover:shadow-lg hover:shadow-[#E95027]/25 transform hover:scale-105 py-[10px] px-[30px] mx-0 bg-[#fd7506]">Entre em contato</Button>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
