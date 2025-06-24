@@ -31,12 +31,12 @@ const Testimonials = () => {
   const renderStars = rating => {
     return Array.from({
       length: 5
-    }, (_, index) => <Star key={index} className={`w-5 h-5 ${index < rating ? 'text-[#0ACB8B] fill-current' : 'text-gray-600'}`} />);
+    }, (_, index) => <Star key={index} className="bg-[#E95027] bg-transparent" />);
   };
   return <section className="py-20 bg-zinc-800">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-bold mb-6 text-[#ff7504] text-4xl">Depoimentos de Clientes</h2>
+          <h2 className="font-bold mb-6 text-4xl text-white">Depoimentos de Clientes</h2>
           <p className="text-lg max-w-2xl mx-auto text-white">
             Veja o que nossos clientes falam sobre nosso trabalho e dedicação
           </p>

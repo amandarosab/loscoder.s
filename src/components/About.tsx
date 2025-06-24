@@ -19,13 +19,13 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-6 text-[#e95027]">Sobre a Los Coders</h2>
           <div className="max-w-3xl mx-auto">
-            <p className="text-lg mb-8 leading-relaxed text-slate-50 my-px">
-              Fundada por <strong className="text-white">Shaymon Alvarez</strong> e <strong className="text-white">Igor Shaymon Lima Alvarez</strong>, 
+            <p className="text-lg mb-8 leading-relaxed my-px text-white">
+              Fundada por <strong className="text-white">Amanda Rosa</strong> e <strong className="text-white">Igor Shaymon Lima Alvarez</strong>, 
               a Los Coders nasceu da paixão por criar soluções digitais que realmente fazem a diferença. 
               Nossa missão é ser o parceiro tecnológico confiável que sua empresa precisa para crescer 
               no mundo digital.
             </p>
-            <p className="text-lg text-gray-300 leading-relaxed">Acreditamos que o desenvolvimento de software vai além do código. É sobre entender profundamente as necessidades do cliente e entregar soluções que superem expectativas!</p>
+            <p className="text-lg leading-relaxed text-white">Acreditamos que o desenvolvimento de software vai além do código. É sobre entender profundamente as necessidades do cliente e entregar soluções que superem expectativas!</p>
           </div>
         </div>
 

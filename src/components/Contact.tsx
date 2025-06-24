@@ -65,7 +65,7 @@ const Contact = () => {
             })} className="mt-2 bg-gray-800 border-gray-700 text-white focus:border-[#FD7506] focus:ring-[#FD7506] min-h-[120px]" required />
             </div>
 
-            <Button type="submit" className="w-full bg-[#FD7506] hover:bg-[#E95027] text-white py-3 transition-all duration-300">
+            <Button type="submit" className="w-full text-white py-3 transition-all duration-300 bg-[#FD7506] text-center">
               Enviar Mensagem
             </Button>
           </form>

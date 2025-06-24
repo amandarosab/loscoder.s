@@ -22,7 +22,7 @@ const Technologies = () => {
   return <section className="py-20 bg-zinc-950">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-6 text-orange-500">Tecnologias</h2>
+          <h2 className="text-4xl font-bold mb-6 text-white">Tecnologias</h2>
           <p className="text-lg max-w-2xl mx-auto text-white font-normal">Utilizamos tecnologias modernas para garantir soluções robustas e escaláveis</p>
         </div>
 
@@ -38,7 +38,7 @@ const Technologies = () => {
               backgroundColor: tech.color
             }} />
               </div>
-              <p className="text-gray-300 font-medium group-hover:text-[#FD7506] transition-colors duration-300">
+              <p className="text-gray-300 font-medium group-hover:text-[#E95027] transition-colors duration-300">
                 {tech.name}
               </p>
             </div>)}

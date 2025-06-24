@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-2xl font-bold mb-4">
-              Los <span className="text-[#FD7506]">Coders</span>
+              Los <span className="text-[#E95027]">Coders</span>
             </h3>
             <p className="leading-relaxed text-slate-50">Transformamos ideias em soluções digitais com integridade, organização e foco total em você!</p>
           </div>
