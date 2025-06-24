@@ -1,6 +1,6 @@
 import React from 'react';
 const Footer = () => {
-  return <footer className="bg-black text-white py-12 border-t border-gray-800">
+  return <footer className="bg-black text-white py-12 border-t border-black-800">
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
@@ -23,14 +23,14 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4 text-gray-500">Contato</h4>
             <div className="space-y-2 text-gray-400">
+              <p>(11) 91062-3871</p>
               <p>contato@loscoders.com.br</p>
-              <p>(11) 99999-9999</p>
             </div>
           </div>
         </div>
 
         <div className="">
-          <p className="<div> text-sm text-center </div> text-gray-400 py-[35px]">&copy; 2024 Los Coders. Todos os direitos reservados.</p>
+          <p className="<div> text-sm </div> text-gray-400 py-[35px] text-center">&copy; 2024 Los Coders. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>;

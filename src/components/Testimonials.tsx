@@ -33,7 +33,7 @@ const Testimonials = () => {
       length: 5
     }, (_, index) => <Star key={index} className="bg-transparent" />);
   };
-  return <section className="py-20 bg-zinc-800">
+  return <section className="py-20 bg-zinc-950">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-bold mb-6 text-4xl text-[#fd7506]">Feedbacks dos clientes</h2>

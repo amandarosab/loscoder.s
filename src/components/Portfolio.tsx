@@ -41,7 +41,7 @@ const Portfolio = () => {
   }];
   const filters = ['Todos', 'Sites institucionais', 'Landing Pages', 'Aplicativos'];
   const filteredProjects = activeFilter === 'Todos' ? projects : projects.filter(project => project.category === activeFilter);
-  return <section className="py-20 bg-zinc-900">
+  return <section className="py-20 bg-zinc-950">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-bold mb-6 text-4xl text-white">Portfólio Visual</h2>
