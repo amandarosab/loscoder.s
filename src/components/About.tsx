@@ -32,7 +32,7 @@ const About = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {values.map((value, index) => {
           const IconComponent = value.icon;
-          return <div key={index} className="text-center group cursor-pointer text-sidebar-accent-foreground duration-300">
+          return <div key={index} className="text-center group cursor-pointer transition-all duration-300">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full shadow-md flex items-center justify-center group-hover:shadow-lg transition-all duration-300 bg-zinc-800">
                   <IconComponent size={32} className="text-[#E95027]-400 group-hover:text-[#FD7506] transition-colors duration-300" />
                 </div>
