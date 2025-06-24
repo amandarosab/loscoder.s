@@ -23,9 +23,7 @@ const Hero = () => {
           <span className="font-medium text-gray-300">foco total</span> em você.
         </p>
 
-        <Button onClick={scrollToContact} className="bg-[#FD7506] hover:bg-[#E95027] text-white px-8 py-4 text-lg rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-[#FD7506]/25 transform hover:scale-105">
-          Fale com a gente
-        </Button>
+        <Button onClick={scrollToContact} className="bg-[#FD7506] hover:bg-[#E95027] text-white px-8 py-4 text-lg rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-[#FD7506]/25 transform hover:scale-105">Entre em contato</Button>
       </div>
     </section>;
 };
