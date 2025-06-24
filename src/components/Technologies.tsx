@@ -23,14 +23,12 @@ const Technologies = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-6 text-orange-500">Tecnologias</h2>
-          <p className="text-lg max-w-2xl mx-auto text-slate-50">
-            Utilizamos as mais modernas tecnologias para garantir soluções robustas e escaláveis
-          </p>
+          <p className="text-lg max-w-2xl mx-auto text-white font-normal">Utilizamos tecnologias modernas para garantir soluções robustas e escaláveis</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
           {technologies.map((tech, index) => <div key={index} className="group text-center cursor-pointer transition-all duration-300">
-              <div className="w-20 h-20 mx-auto mb-4 rounded-lg bg-gray-800 shadow-md flex items-center justify-center group-hover:shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:bg-gray-700">
+              <div className="w-20 h-20 mx-auto mb-4 rounded-lg shadow-md flex items-center justify-center group-hover:shadow-lg transition-all duration-300 group-hover:scale-110 bg-zinc-800">
                 <span className="text-2xl font-bold text-gray-400 group-hover:opacity-100 transition-all duration-300" style={{
               color: 'transparent'
             }}>

@@ -41,11 +41,11 @@ const Portfolio = () => {
   }];
   const filters = ['Todos', 'Sites institucionais', 'Landing Pages', 'Aplicativos'];
   const filteredProjects = activeFilter === 'Todos' ? projects : projects.filter(project => project.category === activeFilter);
-  return <section className="py-20 bg-zinc-200">
+  return <section className="py-20 bg-zinc-900">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-bold mb-6 text-orange-500 text-4xl">Portfólio Visual</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="max-w-2xl mx-auto text-white text-lg font-normal">
             Conheça alguns dos projetos que desenvolvemos com excelência e dedicação
           </p>
         </div>
