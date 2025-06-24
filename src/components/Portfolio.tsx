@@ -44,7 +44,7 @@ const Portfolio = () => {
   return <section className="py-20 bg-zinc-200">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-bold mb-6 text-orange-500 text-[FD7506]">Portfólio Visual</h2>
+          <h2 className="font-bold mb-6 text-orange-500 text-4xl">Portfólio Visual</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Conheça alguns dos projetos que desenvolvemos com excelência e dedicação
           </p>
