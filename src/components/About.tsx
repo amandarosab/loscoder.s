@@ -21,9 +21,7 @@ const About = () => {
           <div className="max-w-3xl mx-auto">
             <p className="mb-8 leading-relaxed text-white my-[9px] text-lg py-0">
               Fundada por <strong className="text-white">Amanda Rosa</strong> e <strong className="text-white">Igor Shaymon Lima Alvarez</strong>, 
-              a Los Coders nasceu da paixão por criar soluções digitais que realmente fazem a diferença. 
-              Nossa missão é ser o parceiro tecnológico confiável que sua empresa precisa para crescer 
-              no mundo digital.
+              a Los Coders nasceu da paixão por criar soluções digitais que realmente fazem a diferença.
             </p>
             <p className="text-lg leading-relaxed text-white">Acreditamos que o desenvolvimento de software vai além do código. É sobre entender profundamente as necessidades do cliente e entregar soluções que superem expectativas!</p>
           </div>
