@@ -41,18 +41,18 @@ const Testimonials = () => {
       <Star
         key={index}
         className={`w-5 h-5 ${
-          index < rating ? 'text-[#0ACB8B] fill-current' : 'text-gray-300'
+          index < rating ? 'text-[#0ACB8B] fill-current' : 'text-gray-600'
         }`}
       />
     ));
   };
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-black">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">Depoimentos de Clientes</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold text-white mb-6">Depoimentos de Clientes</h2>
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Veja o que nossos clientes falam sobre nosso trabalho e dedicação
           </p>
         </div>
@@ -63,18 +63,18 @@ const Testimonials = () => {
               {testimonials.map((testimonial) => (
                 <CarouselItem key={testimonial.id} className="md:basis-1/2 lg:basis-1/1">
                   <div className="p-2">
-                    <Card className="bg-white shadow-lg hover:shadow-xl transition-all duration-300 border-0">
+                    <Card className="bg-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 border-gray-800">
                       <CardContent className="p-8">
                         <div className="text-center mb-6">
                           <div className="flex justify-center mb-4">
                             {renderStars(testimonial.rating)}
                           </div>
-                          <p className="text-gray-700 text-lg leading-relaxed italic mb-6">
+                          <p className="text-gray-300 text-lg leading-relaxed italic mb-6">
                             "{testimonial.comment}"
                           </p>
                         </div>
-                        <div className="text-center border-t pt-6">
-                          <h4 className="text-xl font-semibold text-gray-900 mb-1">
+                        <div className="text-center border-t border-gray-800 pt-6">
+                          <h4 className="text-xl font-semibold text-white mb-1">
                             {testimonial.name}
                           </h4>
                           <p className="text-[#FD7506] font-medium">

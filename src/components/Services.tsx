@@ -27,11 +27,11 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-black">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">Nossos Serviços</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold text-white mb-6">Nossos Serviços</h2>
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Oferecemos soluções completas para transformar sua visão em realidade digital
           </p>
         </div>
@@ -42,18 +42,18 @@ const Services = () => {
             return (
               <div 
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 group cursor-pointer border border-gray-100"
+                className="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 group cursor-pointer border border-gray-800 hover:border-[#FD7506]/30"
               >
-                <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-[#FD7506]/10 transition-all duration-300">
+                <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-gray-800 flex items-center justify-center group-hover:bg-[#FD7506]/10 transition-all duration-300">
                   <IconComponent 
                     size={32} 
-                    className="text-gray-600 group-hover:text-[#FD7506] transition-colors duration-300" 
+                    className="text-gray-400 group-hover:text-[#FD7506] transition-colors duration-300" 
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center">
+                <h3 className="text-xl font-semibold text-white mb-4 text-center">
                   {service.title}
                 </h3>
-                <p className="text-gray-600 text-center leading-relaxed">
+                <p className="text-gray-300 text-center leading-relaxed">
                   {service.description}
                 </p>
               </div>

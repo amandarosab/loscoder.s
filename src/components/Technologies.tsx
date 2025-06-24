@@ -12,11 +12,11 @@ const Technologies = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gray-900">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">Tecnologias</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold text-white mb-6">Tecnologias</h2>
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Utilizamos as mais modernas tecnologias para garantir soluções robustas e escaláveis
           </p>
         </div>
@@ -27,7 +27,7 @@ const Technologies = () => {
               key={index}
               className="group text-center cursor-pointer transition-all duration-300"
             >
-              <div className="w-20 h-20 mx-auto mb-4 rounded-lg bg-white shadow-md flex items-center justify-center group-hover:shadow-lg transition-all duration-300 group-hover:scale-110">
+              <div className="w-20 h-20 mx-auto mb-4 rounded-lg bg-gray-800 shadow-md flex items-center justify-center group-hover:shadow-lg transition-all duration-300 group-hover:scale-110 group-hover:bg-gray-700">
                 <span 
                   className="text-2xl font-bold text-gray-400 group-hover:opacity-100 transition-all duration-300"
                   style={{ color: 'transparent' }}
@@ -39,7 +39,7 @@ const Technologies = () => {
                   style={{ backgroundColor: tech.color }}
                 />
               </div>
-              <p className="text-gray-700 font-medium group-hover:text-[#FD7506] transition-colors duration-300">
+              <p className="text-gray-300 font-medium group-hover:text-[#FD7506] transition-colors duration-300">
                 {tech.name}
               </p>
             </div>

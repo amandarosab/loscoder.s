@@ -30,11 +30,11 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-gray-900">
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">Entre em Contato</h2>
-          <p className="text-lg text-gray-600">
+          <h2 className="text-4xl font-bold text-white mb-6">Entre em Contato</h2>
+          <p className="text-lg text-gray-300">
             Pronto para transformar sua ideia em realidade? Vamos conversar!
           </p>
         </div>
@@ -42,35 +42,35 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <Label htmlFor="nome" className="text-gray-900 font-medium">Nome</Label>
+              <Label htmlFor="nome" className="text-white font-medium">Nome</Label>
               <Input
                 id="nome"
                 value={formData.nome}
                 onChange={(e) => setFormData({ ...formData, nome: e.target.value })}
-                className="mt-2 border-gray-300 focus:border-[#FD7506] focus:ring-[#FD7506]"
+                className="mt-2 bg-gray-800 border-gray-700 text-white focus:border-[#FD7506] focus:ring-[#FD7506]"
                 required
               />
             </div>
 
             <div>
-              <Label htmlFor="email" className="text-gray-900 font-medium">E-mail</Label>
+              <Label htmlFor="email" className="text-white font-medium">E-mail</Label>
               <Input
                 id="email"
                 type="email"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                className="mt-2 border-gray-300 focus:border-[#FD7506] focus:ring-[#FD7506]"
+                className="mt-2 bg-gray-800 border-gray-700 text-white focus:border-[#FD7506] focus:ring-[#FD7506]"
                 required
               />
             </div>
 
             <div>
-              <Label htmlFor="mensagem" className="text-gray-900 font-medium">Mensagem</Label>
+              <Label htmlFor="mensagem" className="text-white font-medium">Mensagem</Label>
               <Textarea
                 id="mensagem"
                 value={formData.mensagem}
                 onChange={(e) => setFormData({ ...formData, mensagem: e.target.value })}
-                className="mt-2 border-gray-300 focus:border-[#FD7506] focus:ring-[#FD7506] min-h-[120px]"
+                className="mt-2 bg-gray-800 border-gray-700 text-white focus:border-[#FD7506] focus:ring-[#FD7506] min-h-[120px]"
                 required
               />
             </div>
@@ -85,10 +85,10 @@ const Contact = () => {
 
           <div className="flex flex-col justify-center items-center">
             <div className="text-center mb-8">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">
+              <h3 className="text-2xl font-semibold text-white mb-4">
                 Ou fale conosco no WhatsApp
               </h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-300 mb-6">
                 Resposta rápida e atendimento personalizado
               </p>
             </div>
