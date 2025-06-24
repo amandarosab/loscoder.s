@@ -18,11 +18,11 @@ const Services = () => {
     title: 'Automação com Python',
     description: 'Criamos scripts e sistemas automatizados em Python para otimizar workflows e aumentar a produtividade da sua empresa.'
   }];
-  return <section className="py-20 bg-black">
+  return <section className="py-20 bg-zinc-950">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-6">Nossos Serviços</h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold mb-6 text-orange-500">Nossos Serviços</h2>
+          <p className="text-lg max-w-2xl mx-auto text-slate-50">
             Oferecemos soluções completas para transformar sua visão em realidade digital
           </p>
         </div>
@@ -30,8 +30,8 @@ const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => {
           const IconComponent = service.icon;
-          return <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 group cursor-pointer border border-gray-800 hover:border-[#FD7506]/30">
-                <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-gray-800 flex items-center justify-center group-hover:bg-[#FFFFFF]/10 transition-all duration-300">
+          return <div key={index} className="p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 group cursor-pointer border border-gray-800 hover:border-[#FD7506]/30 bg-zinc-950">
+                <div className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center transition-all duration-300 bg-zinc-900">
                   <IconComponent size={32} className="text-gray-400 group-hover:text-[#FD7506] transition-colors duration-300" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4 text-center">
