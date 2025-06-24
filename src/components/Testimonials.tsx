@@ -36,8 +36,8 @@ const Testimonials = () => {
   return <section className="py-20 bg-zinc-800">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-bold mb-6 text-[FD7506] text-[#ff7504]">Depoimentos de Clientes</h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+          <h2 className="font-bold mb-6 text-[#ff7504] text-4xl">Depoimentos de Clientes</h2>
+          <p className="text-lg max-w-2xl mx-auto text-white">
             Veja o que nossos clientes falam sobre nosso trabalho e dedicação
           </p>
         </div>
@@ -53,7 +53,7 @@ const Testimonials = () => {
                           <div className="flex justify-center mb-4">
                             {renderStars(testimonial.rating)}
                           </div>
-                          <p className="text-gray-300 text-lg leading-relaxed italic mb-6">
+                          <p className="text-lg leading-relaxed italic mb-6 text-white">
                             "{testimonial.comment}"
                           </p>
                         </div>
