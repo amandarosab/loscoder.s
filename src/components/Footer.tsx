@@ -12,7 +12,7 @@ const Footer = () => {
 
           <div>
             <h4 className="text-lg mb-4 font-semibold text-gray-400">Serviços</h4>
-            <ul className="space-y-2 text-gray-400">
+            <ul className="space-y-2 text-white-400">
               <li className="bg-inherit">Desenvolvimento Web</li>
               <li className="color text: [#FFFFFF] ">Aplicativos Mobile</li>
               <li>Integrações com IA</li>
