@@ -30,7 +30,7 @@ const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => {
           const IconComponent = service.icon;
-          return <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 group cursor-pointer border border-gray-800 hover:border-[#FFFFFF]/30">
+          return <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 group cursor-pointer border border-gray-800 hover:border-[#FD7506]/30">
                 <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-gray-800 flex items-center justify-center group-hover:bg-[#FFFFFF]/10 transition-all duration-300">
                   <IconComponent size={32} className="text-gray-400 group-hover:text-[#FD7506] transition-colors duration-300" />
                 </div>
