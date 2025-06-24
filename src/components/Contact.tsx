@@ -73,7 +73,7 @@ const Contact = () => {
           <div className="flex flex-col justify-center items-center">
             <div className="text-center mb-8">
               <h3 className="text-white mb-4 font-semibold text-xl">Se preferir chame a gente no WhatsApp</h3>
-              <p className="text-gray-300 mb-6 font-normal">Resposta em até 2 horas e atendimento personalizado!</p>
+              <p className="text-gray-300 mb-6 font-normal">Resposta em até 2 horas e atendimento personalizado</p>
             </div>
 
             <Button onClick={handleWhatsApp} className="bg-[#0ACB8B] hover:bg-[#0ACB8B]/90 text-white text-lg rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-[#0ACB8B]/25 flex items-center gap-3 px-[31px] py-[18px]">

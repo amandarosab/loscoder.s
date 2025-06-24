@@ -7,7 +7,7 @@ const Footer = () => {
             <h3 className="text-2xl font-bold mb-4">
               Los <span className="text-[#E95027]">Coders</span>
             </h3>
-            <p className="leading-relaxed text-slate-50 text-base font-normal">Desenvolvemos com integridade, organização e foco total em você!</p>
+            <p className="leading-relaxed text-slate-50 text-base font-normal">Desenvolvemos com integridade, organização e foco total em você</p>
           </div>
 
           <div>
