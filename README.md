@@ -2,12 +2,10 @@
 
 Este projeto foi desenvolvido com objetivo de ser o site oficial da minha empresa a **Los Coders**! A Los Coders atua desenvolvendo sites e aplicativos para pequenas e médias empresas.
 
-Acesse o site:  
-**[loscoders.com.br](https://loscoders.com.br)**
+Acesse o site:  **[loscoders.com.br](https://loscoders.com.br)**
 
 ---
-
-## 🛠️ Tecnologias utilizadas
+### 🛠️ Tecnologias utilizadas
 
 - **Vite** – Ferramenta moderna e veloz para bundling de aplicações
 - **React** – Biblioteca JavaScript para interfaces interativas
@@ -17,20 +15,20 @@ Acesse o site:
 
 ---
 
-## 📌 Objetivos do projeto
+### 📌 Objetivos do projeto
 
 - ✅ Apresentar a empresa Los Coders e seus serviços
 - ✅ Oferecer uma experiência moderna e responsiva aos visitantes
 - ✅ Utilizar tecnologias de ponta com foco em performance
 - ✅ Criar uma identidade visual sólida e profissional
-
+  
 ---
 
-## 🚀 Resultado final
+### 🚀 Resultado final
 
-O resultado é um site institucional leve, rápido e elegante, totalmente alinhado com os valores e a proposta da **Los Coders**.
+O resultado é um site institucional leve, rápido e elegante, totalmente alinhado com os valores e a proposta da Los Coders
+
+**📩 Quer saber mais ou precisa de um site ou app personalizado?** Entre em contato através do site: [loscoders.com.br](https://loscoders.com.br)
+
 ---
-
-**📩 Quer saber mais ou precisa de um site ou app personalizado?**  
-Entre em contato através do site: **[loscoders.com.br](https://loscoders.com.br)**
 
