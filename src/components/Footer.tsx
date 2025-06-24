@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg mb-4 font-semibold text-gray-400">Serviços</h4>
+            <h4 className="text-lg mb-4 font-semibold text-white">Serviços</h4>
             <ul className="space-y-2 text-white-400">
               <li className="bg-inherit">Desenvolvimento Web</li>
               <li className="color text: [#FFFFFF] ">Aplicativos Mobile</li>
@@ -23,8 +23,8 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4 text-gray-500">Contato</h4>
             <div className="space-y-2 text-gray-400">
-              <p>(11) 91062-3871</p>
-              <p>contato@loscoders.com.br</p>
+              <p className="space-y-2 text-white-400">(11) 91062-3871</p>
+              <p className="space-y-2 text-white-400">contato@loscoders.com.br</p>
             </div>
           </div>
         </div>
