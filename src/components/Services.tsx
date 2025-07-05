@@ -1,5 +1,5 @@
 import React from 'react';
-import { Globe, Smartphone, Brain, SquareChevronRight} from 'lucide-react';
+import { Globe, Smartphone, Bot, SquareChevronRight} from 'lucide-react';
 const Services = () => {
   const services = [{
     icon: Globe,
@@ -10,7 +10,7 @@ const Services = () => {
     title: 'Aplicativos Mobile',
     description: 'Desenvolvemos aplicativos nativos e híbridos para iOS e Android, garantindo performance e usabilidade superiores.'
   }, {
-    icon: Brain,
+    icon: Bot,
     title: 'Integrações com IA',
     description: 'Implementamos soluções de inteligência artificial para automatizar processos e gerar insights valiosos para seu negócio.'
   }, {
