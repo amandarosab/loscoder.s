@@ -1,5 +1,5 @@
 import React from 'react';
-import { Globe, Smartphone, Brain, Zap } from 'lucide-react';
+import { Globe, Smartphone, Brain, SquareChevronRight} from 'lucide-react';
 const Services = () => {
   const services = [{
     icon: Globe,
@@ -14,7 +14,7 @@ const Services = () => {
     title: 'Integrações com IA',
     description: 'Implementamos soluções de inteligência artificial para automatizar processos e gerar insights valiosos para seu negócio.'
   }, {
-    icon: Zap,
+    icon: SquareChevronRight,
     title: 'Automação com Python',
     description: 'Criamos scripts e sistemas automatizados em Python para otimizar workflows e aumentar a produtividade da sua empresa.'
   }];
