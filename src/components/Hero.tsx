@@ -63,6 +63,10 @@ const Hero: React.FC = () => {
           Na Los Coders, desenvolvemos com integridade, organização e foco total em você.
         </p>
 
+        <p>
+          
+        </p>
+
         <div className="mt-6 flex justify-center gap-4">
           <Button
             onClick={goToContact}
