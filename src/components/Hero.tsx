@@ -1,30 +1,100 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import TechBackground from './TechBackground';
-const Hero = () => {
-  const scrollToContact = () => {
-    const contactSection = document.getElementById('contact');
-    contactSection?.scrollIntoView({
-      behavior: 'smooth'
-    });
+
+const Hero: React.FC = () => {
+  const navigate = useNavigate();
+
+  const goToContact = () => {
+    navigate('/contact');
   };
-  return <section className="min-h-screen flex items-center justify-center relative bg-black px-4 py-20 overflow-hidden">
-      <TechBackground />
-      <div className="max-w-4xl mx-auto text-center z-10 relative">
-        <h1 className="text-10xl font-bold text-white mb-4 leading-tight md:text-10xl py-px my-0 text-6xl">
-          Transformamos ideias em{' '}
-          <span className="text-white">soluções digitais</span>
+
+  const goToServices = () => {
+    navigate('/services');
+  };
+
+  return (
+    <section
+      id="hero"
+      className="
+        relative
+        bg-black
+        flex flex-col items-center justify-center text-center overflow-hidden
+
+        px-4 sm:px-8 lg:px-16
+        py-16 md:py-20
+
+        h-screen
+        md:h-screen
+      "
+    >
+      {/* Fundo animado sempre visível */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <TechBackground />
+      </div>
+
+      {/* Conteúdo na frente */}
+      <div className="relative z-10 w-full max-w-2xl">
+        <h1
+          className="
+            font-extrabold
+            text-4xl       /* mobile */
+            sm:text-6xl    /* tablet+ */
+            md:text-8xl    /* desktop+ */
+            lg:text-9xl
+            leading-tight
+            text-white
+            mb-4
+          "
+        >
+          Transformamos ideias em
+          <span className="text-white"> soluções digitais</span>
         </h1>
-        
-        <p className="text-xl mb-10 max-w-7xl mx-auto leading-relaxed text-white md:text-xl">
-          Na Los Coders, desenvolvemos com{' '}
-          <span className="font-medium text-[E95027] text-white">integridade</span>,{' '}
-          <span className="font-medium text-white">organização</span> e{' '}
-          <span className="font-medium text-white">foco total</span> em você.
+
+        <p
+          className="
+            text-base sm:text-lg md:text-xl
+            text-gray-300
+            mb-6
+            leading-relaxed
+          "
+        >
+          Na Los Coders, desenvolvemos com integridade, organização e foco total em você.
         </p>
 
-        <Button onClick={scrollToContact} className="text-white text-lg rounded-lg duration-300 hover:shadow-lg hover:shadow-[#E95027]/25 transform hover:scale-105 py-[10px] px-[30px] mx-0 bg-[#fd7506]">Entre em contato</Button>
+        <div className="mt-6 flex justify-center gap-4">
+          <Button
+            onClick={goToContact}
+            className="
+              bg-[#FD7506] hover:bg-[#E95027]
+              text-sm sm:text-base
+              text-white
+              px-6 py-3
+              rounded-lg
+              transition transform hover:scale-105 hover:shadow-lg hover:shadow-[#E95027]/25
+            "
+          >
+            Entre em contato
+          </Button>
+
+          <Button
+            onClick={goToServices}
+            className="
+              bg-[#FD7506] hover:bg-[#E95027]
+              text-sm sm:text-base
+              text-white
+              px-6 py-3
+              rounded-lg
+              transition transform hover:scale-105 hover:shadow-lg hover:shadow-[#E95027]/25
+            "
+          >
+            Nossos serviços
+          </Button>
+        </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Hero;
