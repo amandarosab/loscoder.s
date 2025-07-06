@@ -41,8 +41,8 @@ const Hero: React.FC = () => {
             font-extrabold
             text-4xl       /* mobile */
             sm:text-6xl    /* tablet+ */
-            md:text-8xl    /* desktop+ */
-            lg:text-9xl
+            md:text-6xl    /* desktop+ */
+            lg:text-6xl
             leading-tight
             text-white
             mb-4
