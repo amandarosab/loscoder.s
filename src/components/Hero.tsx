@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
       <div className="relative z-10 w-full max-w-2xl">
         <h1
           className="
-            font-extrabold
+            font-bold
             text-4xl       /* mobile */
             sm:text-6xl    /* tablet+ */
             md:text-6xl    /* desktop+ */
