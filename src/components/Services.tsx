@@ -18,7 +18,7 @@ const Services = () => {
     title: 'Automação com Python',
     description: 'Criamos scripts e sistemas automatizados em Python para otimizar workflows e aumentar a produtividade da sua empresa.'
   }];
-  return <section className="py-20 bg-zinc-950">
+  return <section id="services" className="py-20 bg-zinc-950">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-bold mb-6 text-4xl text-white">Nossos Serviços</h2>

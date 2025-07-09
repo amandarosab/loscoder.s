@@ -1,17 +1,14 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import TechBackground from './TechBackground';
 
 const Hero: React.FC = () => {
-  const navigate = useNavigate();
-
-  const goToContact = () => {
-    navigate('/contact');
-  };
-
-  const goToServices = () => {
-    navigate('/services');
+  // Função para rolar suavemente para uma seção da página
+  const handleScrollTo = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   };
 
   return (
@@ -25,8 +22,7 @@ const Hero: React.FC = () => {
         px-4 sm:px-8 lg:px-16
         py-16 md:py-20
 
-        h-screen
-        md:h-screen
+        h-[80vh]
       "
     >
       {/* Fundo animado sempre visível */}
@@ -39,13 +35,13 @@ const Hero: React.FC = () => {
         <h1
           className="
             font-bold
-            text-4xl       /* mobile */
-            sm:text-6xl    /* tablet+ */
-            md:text-6xl    /* desktop+ */
+            text-4xl
+            sm:text-6xl
+            md:text-6xl
             lg:text-6xl
             leading-tight
             text-white
-            mb-4
+            mb-8
           "
         >
           Transformamos ideias em
@@ -60,16 +56,12 @@ const Hero: React.FC = () => {
             leading-relaxed
           "
         >
-          Na Los Coders, desenvolvemos com integridade, organização e foco total em você.
-        </p>
-
-        <p>
-          
+          Desenvolvemos com integridade, organização e foco total em você!
         </p>
 
         <div className="mt-6 flex justify-center gap-4">
           <Button
-            onClick={goToContact}
+            onClick={() => handleScrollTo('contact')}
             className="
               bg-[#FD7506] hover:bg-[#E95027]
               text-sm sm:text-base
@@ -83,7 +75,7 @@ const Hero: React.FC = () => {
           </Button>
 
           <Button
-            onClick={goToServices}
+            onClick={() => handleScrollTo('services')}
             className="
               bg-[#FD7506] hover:bg-[#E95027]
               text-sm sm:text-base
