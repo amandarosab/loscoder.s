@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
 
         <div className="">
-          <p className="<div> text-sm </div> text-gray-410 text-center py-[40px]">© 2025 Los Coders. Todos os direitos reservados.</p>
+          <p className="<div> text-sm </div> text-gray-410 text-center py-[40px]">©2025 Los Coders. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>;

@@ -15,14 +15,8 @@ const Testimonials = () => {
     role: 'Diretora de Marketing',
     rating: 5,
     comment: 'A equipe demonstrou total dedicação ao nosso projeto. O resultado superou nossas expectativas e o suporte pós-entrega foi excepcional.'
-  }, {
+  },  {
     id: 3,
-    name: 'Carlos Oliveira',
-    role: 'CEO da TechStart',
-    rating: 5,
-    comment: 'Profissionalismo e competência técnica em cada detalhe. Recomendo a Los Coders para qualquer empresa que busca excelência em desenvolvimento.'
-  }, {
-    id: 4,
     name: 'Ana Paula',
     role: 'Gestora de Produtos',
     rating: 5,
