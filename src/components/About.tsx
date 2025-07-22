@@ -1,7 +1,6 @@
-import React from 'react';
 import { Users, Heart, Target, CheckCircle } from 'lucide-react';
 
-const About: React.FC = () => {
+const About = () => {
   const values = [
     { icon: Target, label: 'Foco no cliente' },
     { icon: CheckCircle, label: 'Integridade' },
@@ -10,11 +9,12 @@ const About: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 bg-inherit">
+    // AQUI ESTÁ A CHAVE: O id="about" precisa estar nesta linha.
+    <section id="about" className="py-20 bg-black">
       <div className="max-w-6xl mx-auto px-4">
         {/* Título e descrição */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-mono mb-6 text-[#E95027]">
+          <h2 className="text-4xl font-mono mb-6 text-orange-500">
             Sobre a Los Coders
           </h2>
           <div className="max-w-3xl mx-auto">
@@ -47,10 +47,10 @@ const About: React.FC = () => {
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full shadow-md flex items-center justify-center bg-zinc-800 transition-shadow duration-300 group-hover:shadow-lg">
                   <IconComp
                     size={32}
-                    className="text-[#E95027] group-hover:text-[#FD7506] transition-colors duration-300"
+                    className="text-orange-500 group-hover:text-orange-400 transition-colors duration-300"
                   />
                 </div>
-                <p className="font-medium text-[#f8f3f1] group-hover:text-[#FD7506] transition-colors duration-300">
+                <p className="font-medium text-gray-200 group-hover:text-orange-400 transition-colors duration-300">
                   {value.label}
                 </p>
               </div>

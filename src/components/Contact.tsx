@@ -36,7 +36,7 @@ const Contact = () => {
               style={{ backgroundColor: '#25D366', color: 'white' }}
             >
               <FaWhatsapp className="mr-2 h-5 w-5" />
-              Entrar em contato pelo WhatsApp
+              Enviar mensagem no WhatsApp!
             </Button>
           </div>
         </div>
