@@ -8,7 +8,7 @@ const Header = () => {
           <img 
             src="/logo.svg"
             alt="Logo Los Coders" 
-            className="h-12"
+            className="h-20"
           />
         </Link>
         <div className="hidden md:flex items-center space-x-6">
