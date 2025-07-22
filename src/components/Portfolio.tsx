@@ -41,7 +41,7 @@ const Portfolio = () => {
     <section className="py-20 bg-zinc-950">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-bold mb-6 text-4xl text-white">Portfólio</h2>
+          <h2 className="font-mono mb-6 text-4xl text-white">Portfólio</h2>
           <p className="max-w-2xl mx-auto font-normal text-[E95027] text-white">
             Conheça alguns dos projetos que desenvolvemos com excelência e dedicação
           </p>

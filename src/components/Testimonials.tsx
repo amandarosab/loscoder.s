@@ -30,7 +30,7 @@ const Testimonials = () => {
   return <section className="py-20 bg-zinc-950">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-bold mb-6 text-4xl text-[#fd7506]">Feedbacks dos clientes</h2>
+          <h2 className="font-mono mb-6 text-4xl text-[#fd7506]">Feedbacks dos clientes</h2>
           <p className="text-lg max-w-2xl mx-auto text-white">
             Veja o que nossos clientes falam sobre nosso trabalho e dedicação
           </p>
@@ -52,7 +52,7 @@ const Testimonials = () => {
                           </p>
                         </div>
                         <div className="text-center ">
-                          <h4 className="text-xl font-semibold text-white mb-1">
+                          <h4 className="text-xl font-mono text-white mb-1">
                             {testimonial.name}
                           </h4>
                           <p className="font-medium text-[#e95027]">

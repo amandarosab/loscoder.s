@@ -14,7 +14,7 @@ const About: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4">
         {/* Título e descrição */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-6 text-[#E95027]">
+          <h2 className="text-4xl font-mono mb-6 text-[#E95027]">
             Sobre a Los Coders
           </h2>
           <div className="max-w-3xl mx-auto">
