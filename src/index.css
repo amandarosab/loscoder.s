@@ -187,3 +187,10 @@
 .animate-pulse-slow {
   animation: pulse-slow 6s ease-in-out infinite;
 }
+
+/* Adicione este código no final do seu ficheiro index.css */
+
+.logo-link:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 2px #000, 0 0 0 4px #F97316; /* Anel preto e depois laranja */
+}
